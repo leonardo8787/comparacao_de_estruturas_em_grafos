@@ -22,9 +22,13 @@ Graph G = GraphInitialize(10); <- A edição do tamanho do grafo deve ser feita 
 Nas matrizes de Adjacência o número 1 é usado para representar a ligação entre os vértices, enquanto que nas listas de adjacência o que ocorre é a criação de vetores para cada vértice, esses vetores contém cada vertice que o vertice conhece, assim dependendo de como o usuário a programa, as buscas são bem mais rápidas, pois você só pode ir pelos vértices "amigos" do vértice corrente. Sobre as Matrizes de Incidência, são associações entre vértices, linhas, arestas e colunas. A matriz de adjacência é boa para saber se um vértice é amigo de outro, pois basta testar matriz[v][w]. Em alguns casos, o mais barato é usar as duas representações juntas.
 
 <h2>Tempo de Execução - Matriz de Adjacência</h2>
-
+<p align = "center">
+    <img src="https://github.com/leonardo8787/comparacao_de_estruturas_em_grafos/blob/main/estruturas/imagens/Matriz%20de%20Adjac%C3%AAncia.png" alt="matriz de adjacência" width="700"></img>
+</p>
 <h2>Tempo de Execução - Matriz de Incidência</h2>
-
+<p align = "center">
+    <img src="https://github.com/leonardo8787/comparacao_de_estruturas_em_grafos/blob/main/estruturas/imagens/matriz%20de%20Incid%C3%AAncia.png" alt="matriz de incidência" width="700"></img>
+</p>
 <h2>Tempo de Execução - Lista de Adjacência</h2>
 
 <h2>Conclusões</h2>
